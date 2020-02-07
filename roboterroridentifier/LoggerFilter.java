@@ -383,6 +383,7 @@ public class LoggerFilter {
         printer.close();
         LoggerGUI.printToFrame("Base output printed successfully to file at "
                 + new File("output\\mainoutput\\" + fileName).getAbsolutePath());
+        LoggerGUI.openOutput("output\\mainoutput\\" + fileName);
     }
 
     /**
@@ -438,6 +439,7 @@ public class LoggerFilter {
             LoggerGUI.printToFrame(
                     "Successfully printed to file at " + "output\\commandoutput\\" + fileName + " ALLEVENTS.txt");
             printer.close();
+            LoggerGUI.openOutput(filePath);
         } catch (final Exception e) {
             LoggerGUI.printToFrame("Failed to print all errors to file.");
             e.printStackTrace();

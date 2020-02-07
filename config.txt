@@ -1,3 +1,3 @@
-.dsevents folder path: C:\Users\shrav\Documents\GitHub\RobotErrorIdentifier\testing
-All subsystem keyword names (comma separated): {Drive, Climb, Limelight}
-Console Overflow Limit: 100
+.dsevents folder path: ADD FILEPATH HERE
+All subsystem keyword names (comma separated): {Example 1, Example 2, Example 3}
+Console Overflow Limit: 200
