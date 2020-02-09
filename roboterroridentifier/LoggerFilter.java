@@ -722,7 +722,7 @@ public class LoggerFilter {
                 "[Actuator to look for <Actuator Name>]"),
         creategraph("Creates a graph from error types or subsystem data given a graph type.", 3,
                 "[GraphType to look for <Graph Type>], [Start of range to parse through <int>], [End of range to parse through <int>]"),
-        timemap("Unknown, will implement soon!", 0, "[No parameters <N/A>]");
+        timemap("Displays a second-by-second breakdown of all errors encountered.", 0, "[No parameters <N/A>]");
 
         String desc;
         int paramNum;
